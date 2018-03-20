@@ -1,0 +1,292 @@
+<!Doctype>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+    <title>StandardDigital</title>
+</head>
+
+<style>
+    body {
+        background: rgba(0, 0, 0, 0.96);
+    }
+</style>
+
+<body>
+    <div class="preloader">
+        <div class="loader">
+            <i class="fas fa-cube fa-spin fa-pulse fa-3x"></i>
+            <div class="progress">
+                <div id="bar">5%</div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex">
+                <li class="nav-item">
+                    <a class="nav-link" id="index" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" id="projects" href="projects.html">Projects</a>
+                </li>
+                <a class="navbar-brand" href="#">R+B</a>
+                <li class="nav-item">
+                    <a class="nav-link" id="resume" href="resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid portfolio">
+        <div class="layout" id="frame_1">
+            <div class="frame_overlay_left">
+                <div class="tools">
+                    <i class="fas fa-cube" id="sq1"></i> Ruby
+                    <i class="fas fa-cube" id="sq2"></i> Rails
+                    <i class="fas fa-cube" id="sq3"></i> HAML
+                    <i class="fas fa-cube" id="sq4"></i> Sass
+                    <i class="fas fa-cube" id="sq5"></i> PostgreSQL
+                </div>
+                <br/>
+                <div class="learn_more">
+                    <a href="proj1.html">
+                        <button class="more-btn">
+                            <i class="fas fa-search-plus fa-lg"></i> LEARN MORE
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="frame_overlay_right ">
+                <h4>Fitness Web App</h4>
+                <p>Bodyweight fitness app, schedule workouts, view new exercises, track gains.</p>
+            </div>
+        </div>
+        <div class="layout" id="frame_2">
+            <div class="frame_overlay_left">
+                <div class="tools">
+                    <i class="fas fa-cube" id="sq1"></i> Ruby
+                    <i class="fas fa-cube" id="sq2"></i> Rails
+                    <i class="fas fa-cube" id="sq3"></i> HAML
+                    <i class="fas fa-cube" id="sq4"></i> Sass
+                    <i class="fas fa-cube" id="sq5"></i> PostgreSQL
+                </div>
+                <br/>
+                <div class="learn_more">
+                    <a href="">
+                        <button class="more-btn">
+                            <i class="fas fa-search-plus fa-lg"></i> LEARN MORE
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="frame_overlay_right">
+                <h4>Crypto Tracker</h4>
+                <p>Track live prices and top cryptocurrencies by vol, marketcap, gain and loss.</p>
+            </div>
+        </div>
+        <div class="layout" id="frame_3">
+            <div class="frame_overlay_left">
+                <div class="tools">
+                    <i class="fas fa-cube" id="sq1"></i> Ruby
+                    <i class="fas fa-cube" id="sq2"></i> Rails
+                    <i class="fas fa-cube" id="sq3"></i> HAML
+                    <i class="fas fa-cube" id="sq4"></i> Sass
+                    <i class="fas fa-cube" id="sq5"></i> PostgreSQL
+                </div>
+                <br/>
+                <div class="learn_more">
+                    <a href="">
+                        <button class="more-btn">
+                            <i class="fas fa-search-plus fa-lg"></i> LEARN MORE
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="frame_overlay_right">
+                <h4>Envelope Budget Web App</h4>
+                <p>Keep track of your budget online.</p>
+            </div>
+        </div>
+        <div class="layout" id="frame_4">
+            <div class="frame_overlay_left">
+                <div class="tools">
+                    <i class="fas fa-cube" id="sq1"></i> Ruby
+                    <i class="fas fa-cube" id="sq2"></i> Rails
+                    <i class="fas fa-cube" id="sq3"></i> HAML
+                    <i class="fas fa-cube" id="sq4"></i> Sass
+                    <i class="fas fa-cube" id="sq5"></i> PostgreSQL
+                </div>
+                <br/>
+                <div class="learn_more">
+                    <a href="">
+                        <button class="more-btn">
+                            <i class="fas fa-search-plus fa-lg"></i> LEARN MORE
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="frame_overlay_right">
+                <h4>Headline News Web App</h4>
+                <p>Keep track of daily headlines from the top media sources.</p>
+            </div>
+        </div>
+        <div class="layout" id="frame_5">
+            <div class="frame_overlay_left">
+                <div class="tools">
+                    <i class="fas fa-cube" id="sq1"></i> Ruby
+                    <i class="fas fa-cube" id="sq2"></i> Rails
+                    <i class="fas fa-cube" id="sq3"></i> HAML
+                    <i class="fas fa-cube" id="sq4"></i> Sass
+                    <i class="fas fa-cube" id="sq5"></i> PostgreSQL
+                </div>
+                <br/>
+                <div class="learn_more">
+                    <a href="">
+                        <button class="more-btn">
+                            <i class="fas fa-search-plus fa-lg"></i> LEARN MORE
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="frame_overlay_right">
+                <h4>Ecommerce Clone</h4>
+                <p>Ecommerce site for modern fashionable clothing.</p>
+            </div>
+        </div>
+        <div class="layout" id="frame_6">
+            <div class="frame_overlay_left">
+                <div class="tools">
+                    <i class="fas fa-cube" id="sq1"></i> Ruby
+                    <i class="fas fa-cube" id="sq2"></i> Rails
+                    <i class="fas fa-cube" id="sq3"></i> HAML
+                    <i class="fas fa-cube" id="sq4"></i> Sass
+                    <i class="fas fa-cube" id="sq5"></i> PostgreSQL
+                </div>
+                <br/>
+                <div class="learn_more">
+                    <a href="">
+                        <button class="more-btn">
+                            <i class="fas fa-search-plus fa-lg"></i> LEARN MORE
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="frame_overlay_right">
+                <h4>NetFlix Clone</h4>
+                <p>Mock NetFlix clone with an old school Kung Fu theme.</p>
+            </div>
+        </div>
+        <div class="layout" id="frame_7">
+            <div class="frame_overlay_left">
+                <div class="tools">
+                    <i class="fas fa-cube" id="sq1"></i> Ruby
+                    <i class="fas fa-cube" id="sq2"></i> Rails
+                    <i class="fas fa-cube" id="sq3"></i> HAML
+                    <i class="fas fa-cube" id="sq4"></i> Sass
+                    <i class="fas fa-cube" id="sq5"></i> PostgreSQL
+                </div>
+                <br/>
+                <div class="learn_more">
+                    <a href="">
+                        <button class="more-btn">
+                            <i class="fas fa-search-plus fa-lg"></i> LEARN MORE
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="frame_overlay_right">
+                <h4>Music Showcase Site</h4>
+                <p>An artist's site showcasing their musicianship.</p>
+            </div>
+        </div>
+        <div class="layout" id="frame_8">
+            <div class="frame_overlay_left">
+                <div class="tools">
+                    <i class="fas fa-cube" id="sq1"></i> Ruby
+                    <i class="fas fa-cube" id="sq2"></i> Rails
+                    <i class="fas fa-cube" id="sq3"></i> HAML
+                    <i class="fas fa-cube" id="sq4"></i> Sass
+                    <i class="fas fa-cube" id="sq5"></i> PostgreSQL
+                </div>
+                <br/>
+                <div class="learn_more">
+                    <a href="">
+                        <button class="more-btn">
+                            <i class="fas fa-search-plus fa-lg"></i> LEARN MORE
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="frame_overlay_right">
+                <h4>Carpool Mobile App</h4>
+                <p>Cross platform mobile app for corporate employee carpools.</p>
+            </div>
+        </div>
+        <div class="layout" id="frame_9">
+            <div class="frame_overlay_left">
+                <div class="tools">
+                    <i class="fas fa-cube" id="sq1"></i> Ruby
+                    <i class="fas fa-cube" id="sq2"></i> Rails
+                    <i class="fas fa-cube" id="sq3"></i> HAML
+                    <i class="fas fa-cube" id="sq4"></i> Sass
+                    <i class="fas fa-cube" id="sq5"></i> PostgreSQL
+                </div>
+                <br/>
+                <div class="learn_more">
+                    <a href="">
+                        <button class="more-btn">
+                            <i class="fas fa-search-plus fa-lg"></i> LEARN MORE
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="frame_overlay_right">
+                <h4>Streetwear Ecommerce</h4>
+                <p>Mock ecommerce and social site for streetwear fanatics.</p>
+            </div>
+        </div>
+        <div class="layout" id="frame_10">
+            <div class="frame_overlay_left">
+                <div class="tools">
+                    <i class="fas fa-cube" id="sq1"></i> Ruby
+                    <i class="fas fa-cube" id="sq2"></i> Rails
+                    <i class="fas fa-cube" id="sq3"></i> HAML
+                    <i class="fas fa-cube" id="sq4"></i> Sass
+                    <i class="fas fa-cube" id="sq5"></i> PostgreSQL
+                </div>
+                <br/>
+                <div class="learn_more">
+                    <a href="">
+                        <button class="more-btn">
+                            <i class="fas fa-search-plus fa-lg"></i> LEARN MORE
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="frame_overlay_right">
+                <h4>Job Tracker Web App</h4>
+                <p>Job seeker tracking app to help streamline a job search.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
